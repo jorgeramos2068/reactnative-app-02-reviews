@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { FlatList, Modal, View, StyleSheet, Text, TouchableOpacity } from 'react-native';
 import { MaterialIcons } from'@expo/vector-icons';
 import Card from '../shared/Card';
+import ReviewForm from './ReviewForm';
 import { globalStyles } from '../styles/global';
 
 const Home = ({navigation}) => {
@@ -34,7 +35,7 @@ const Home = ({navigation}) => {
             onPress={handleModalClose}
             style={{...styles.modalToggle, ...styles.modalClose}}
           />
-          <Text>Hello from the modal</Text>
+          <ReviewForm />
         </View>
       </Modal>
       <MaterialIcons
