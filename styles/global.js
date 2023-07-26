@@ -17,6 +17,14 @@ export const globalStyles = StyleSheet.create({
   paragraph: {
     lineHeight: 20,
     marginVertical: 8
+  },
+  input: {
+    borderColor: '#ddd',
+    borderRadius: 6,
+    borderWidth: 1,
+    fontSize: 18,
+    marginVertical: 10,
+    padding: 10,
   }
 });
 
