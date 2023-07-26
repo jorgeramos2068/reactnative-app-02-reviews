@@ -9,23 +9,29 @@ export const globalStyles = StyleSheet.create({
     paddingRight: 20,
     paddingTop: 40,
   },
-  titleText: {
-    color: '#333',
-    fontFamily: 'nunito-bold',
-    fontSize: 18
-  },
-  paragraph: {
-    lineHeight: 20,
-    marginVertical: 8
+  errorText: {
+    color: 'crimson',
+    fontWeight: 'bold',
+    marginBottom: 10,
+    marginTop: 6,
+    textAlign: 'center'
   },
   input: {
     borderColor: '#ddd',
     borderRadius: 6,
     borderWidth: 1,
     fontSize: 18,
-    marginVertical: 10,
     padding: 10,
-  }
+  },
+  paragraph: {
+    lineHeight: 20,
+    marginVertical: 8
+  },
+  titleText: {
+    color: '#333',
+    fontFamily: 'nunito-bold',
+    fontSize: 18
+  },
 });
 
 export const globalImages = {
